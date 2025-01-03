@@ -1,0 +1,371 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  :root{
+    --page-color1: #4522a9;
+    --page-color2: #ff8a00;
+    --page-color3: #fff6ec;
+    --page-color4: #ffffff;
+    --page-color5: rgba(69, 34, 169, 0.70);
+     --page-color6: #000000;
+    --page-color7: #667B8A ;
+  }
+  body{
+    flex-direction: column;
+  }
+  *{
+
+    box-sizing: border-box;
+  }
+  body
+  {
+    margin: 0;
+  }
+    header{
+      left: 0;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      display: block;
+      height: 20vh;
+  }
+  .header-container{
+    width: 100%;
+
+  }
+  .nav-bar{
+    position:absolute;
+    top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    margin: 30 0;
+    height: 10vh;
+    background-color: transparent;
+    z-index: 1;
+  }
+  .nav-links{
+    list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      overflow: hidden;
+  }
+  .nav-links li{
+    margin-left: 10px
+  }
+  .nav-links a{
+    text-decoration: none;
+    color: var(--page-color5);
+    font-size: 18px;
+  }
+  .nav-bar.logo{
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    width: 100%;
+  }
+  .nav-links{
+    width: 100%;
+    padding-top: 10px;
+  }
+  .added{
+    width: 15vw;
+  }
+
+  .top{
+    background-color: var(--page-color1);
+    width: 100%;
+    height: 5vh;
+    padding: 15px;
+  }
+  .centerlize{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .info{
+    background-color: var(--page-color3);
+
+
+  }
+  .full-statement{
+    width: 200px;
+    height: 50px;
+    background-color: var(--page-color2);
+    color: var(--page-color4);
+    padding: 10px;
+  }
+  .white-writing{
+    font-weight: 700;
+  }
+  .align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .added2{
+    width: 100%;
+    height: 20px;
+  }
+  .added3{
+    width: 100%;
+    height: 50px;
+  }
+  .heading{
+    padding-top: 30px;
+    color: var(--page-color1);
+  }
+  .message{
+    color: var(--page-color5);
+  }
+  .section2{
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--page-color1);
+
+  }
+  .peak{
+    width:45%;
+    justify-content: center;
+    text-align: center;
+  }
+  .text-part{
+
+    overflow: hidden;
+    padding: 10px;
+    color: var(--page-color4);
+  }
+  .kibo-students{
+    width:45%;
+    overflow: hidden;
+    padding: 10px;
+    text-align: right;
+
+  }
+  .section2 img{
+    width: 95%;
+    overflow: hidden;
+    padding: 10px;
+    max-width: 100%;
+  }
+  .center{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  button img{
+    width: 65vh;
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+
+  }
+  .section3{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 80%;
+    padding: 0;
+    margin: 0;
+  }
+  .peakture{
+    width: 50%;
+    /* overflow: hidden;
+     */
+     margin: 0;
+     border: none;
+  }
+  .added4{
+    height: 0;
+    width: 100%;
+    padding: 0;
+    background-color: var(--page-color4); 
+  }
+  .section4{
+    width:100%;
+  }
+  .kibo-focus{
+    padding: 20px 0;
+  }
+  .kibo-why img{
+    height: 100%;
+    width: 100%;
+  }
+  .segment .kibo-why{
+    height: 50%;
+     top: 0;
+  }
+  .writing{
+    height: 45%;
+  }
+  .why-kibo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+
+  }
+  .segment{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    height: 80%;
+  }
+  .w-kibo{
+    margin-top: 10px; 
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .p-button{
+    position: static;
+    background-color: var(--page-color1);
+    bottom: 0;
+    padding: 10px;
+  }
+  .segment-one img{
+    height: 200px;
+  } 
+  .segment-one{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    height: 90%;
+    border-radius: 2%;
+    background-color: #ffffff;
+    padding-bottom: 20px;
+     box-shadow: 2px 2px 2 2;
+  }
+  .segment-pic img{
+    width: 100%;
+
+  }
+  .segment5{
+    padding-top: 20px;
+    position: relative;
+  }
+  .added5{
+    height: 10%;
+    width: 100%;
+    background-color: transparent;
+  }
+  .added6{
+    height: 5%;
+    width: 100%;
+    background-color: transparent;
+  }
+  .b-heading{
+    color: var(--page-color6);
+  }
+  .b-text{
+    color: var(--page-color7)!important;
+  }
+  .o-button{
+    width: 120px;
+    height: 40px;
+  }
+  .degree{
+    color: #262626 !important;
+      font-size: 24px !important;
+      line-height: 32px !important;
+      font-family: Poppins !important;
+      font-weight: 600 !important;
+  }
+  .kibo-human img{
+    width: 200px;
+    height: 200px;
+    max-width: 350px;
+  }
+  .kibo-human{
+    width: 100%;
+    height: 100%;
+  }
+  .kibo-man{
+    display: flex;
+    height: 100%;
+    width: 20%;
+    justify-content: space-between;
+
+  }
+  .kibo-people{
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 100%;
+  }
+   .segment1{
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    width: 20%;
+    height: 80%;
+  } 
+  .segment2{
+    /* background-color: blue; */
+    width: 100%;
+    display: flex;
+    background-color: #f5f5f5;
+  }
+  .footer1{
+    width: 35%;
+    position: absolute;
+    left: 50px;
+    padding-top: 20px;
+    margin-top: 10px;
+    background-color: #f5f5f5;
+    
+  }
+  footer{
+    background-color: #f5f5f5;
+  }
+  .footer2{
+    background-color: #f5f5f5;
+    width: 65%;
+    position: absolute;
+    right: 20px;
+  }
+  .k-logo img{
+    width: 200px;
+  }
+  .segmented{
+    width: 25%;
+
+
+  }
+  .divisor{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: top;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .decoration{
+    text-decoration: none;
+    list-style: none;
+    color: var(--page-color7)!important;
+  }
+  .decoration li{
+    padding: 5px 0;
+  }
+  .extra-space{
+    width: 100%;
+    height: 10vh;
+  }
+  .color-added{
+    background-color: #f5f5f5;
+  }
+  .decoration span{
+    display: block;
+  }
+  

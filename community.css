@@ -1,0 +1,50 @@
+/* community */
+.community img{
+    width: 90%; 
+  }
+  .community{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  .unity1{
+    width: 50%;
+    color: var(--page-color1);
+  }
+  .unity2{
+    width: 100%;
+    background-image: url('Community-bg-Mobile.svg');
+  }
+  .mentor{
+    display: flex;
+    flex-direction: row;
+  }
+  .mentora{
+    height: 200px;
+    width: 350px;
+    background-color: var(--page-color9);
+    margin: 10px;
+    border-radius: 4%
+  }
+  .kibo-mentors{
+    background-color: var(--page-color1);
+  color: var(--page-color4);
+  width: 100%;
+  }
+  .f-section img{
+    height: 70px;
+    border-radius: 50%;
+  }
+  .f-section{
+    height: 50px;
+    background-color: var(--page-color4);
+    width: 30%;
+  }
+  .feedbacks{
+    background-color: var(--page-color3);
+    width: 100%;
+    display: flex;
+  
+  }
